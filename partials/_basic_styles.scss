@@ -94,17 +94,54 @@ header h1 {
     grid-column-end: 6;
 }
 
+.preamble:hover{
+    animation: preamble 2s;
+}
+
+@keyframes preamble {
+  from {color: black;}
+  to {color: #7a7a7a;}
+}
+
+.benefits:hover{
+    animation: benefits 3s;
+}
+
+@keyframes benefits {
+  0%   {transform: translateY(-90px) scale(1);}
+    50% {transform: translateY(-90px) scale(.5);}
+  100% {transform: translateY(-90px) scale(1);}
+}   
+
 .explanation {
 	grid-row: 5;
   	grid-column-start: 2;
   	grid-column-end: 6;
+    z-index: 900;
 }
+
+.explanation:hover{
+    animation: explanation 3s;
+}
+
+@keyframes explanation {
+    100% {transform: translateY(-90px) rotate(1turn);}
+}   
 
 .participation{
 	grid-row: 5;
   	grid-column-start: 6;
   	grid-column-end: 10;
 }
+
+.participation:hover{
+    animation: participation 3s;
+}
+
+@keyframes participation {
+    from {transform: translateY(-90px) rotateY(0deg);}
+	to {transform: translateY(-90px) rotateY(360deg);}
+}  
 
 .benefits{
 	grid-row-start: 3;
@@ -117,8 +154,20 @@ header h1 {
 	grid-row: 7;
   	grid-column-start: 4;
   	grid-column-end: 8;
-	  transform: translateY(-60px);
+    transform: translateY(-60px);
 }
+
+.requirements:hover{
+    animation: requirements 3s;
+}
+
+@keyframes requirements {
+    0%   {transform: translateY(-60px) translateX(0px);}
+    25%   {transform: translateY(-60px) translateX(100px);}
+    50% {transform: translateY(-60px) translateX(-200px);}
+    75% {transform: translateY(-60px) translateX(100px);}
+    100% {transform: translateY(-60px) translateX(0px);}
+}   
 
 footer{
     display: none;
@@ -222,6 +271,3 @@ h3 {
 
 
  } 
-  
-
-
