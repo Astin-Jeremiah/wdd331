@@ -4,14 +4,14 @@
     }
 
     .sidebar ul{
-        color: #AE0001;
+        color: $color-4;
         font-weight: bold;
         line-height: 1.6;
         padding: 0px;
     }
 
     .sidebar ul li{
-        color: #AE0001;
+        color: $color-5;
         font-weight: bold;
         line-height: 1.6;
         padding-bottom: 10px;
@@ -27,7 +27,7 @@
 }
 
     .sidebar ul li a, .sidebar ul li a:visited{
-        color: #AE0001;
+        color: $color-5;
         font-weight: bold;
         line-height: 1.6;
         text-decoration: none;
@@ -35,7 +35,7 @@
     }
 
     .sidebar ul li a:hover{
-        color: #AE0001;
+        color: $color-5;
         font-weight: bold;
         line-height: 1.6;
         text-decoration: underline;
@@ -49,7 +49,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: #bd9521;
+    background: $color-4;
     Z-index: 200;
 
    &::before {
@@ -59,7 +59,7 @@
     right: 0;
     width: 100%;
     height: 50%;
-    background: linear-gradient(to right bottom, #bd9521 50%, transparent 50%);
+    background: linear-gradient(to right bottom, $color-4 50%, transparent 50%);
    }
 
    &::after {
@@ -69,7 +69,7 @@
     left: 0;
     width: 100%;
     height: 50%;
-    background: linear-gradient(to left bottom, #bd9521 50%, transparent 50%); 
+    background: linear-gradient(to left bottom, $color-4 50%, transparent 50%); 
    }
    transform: translateY(-200px);
 
