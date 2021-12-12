@@ -209,18 +209,6 @@ h2 {
   display: block;
 }
 
-h1, h2 {
-  animation: heading 5s infinite alternate;
-}
-
-@keyframes heading {
-  from {
-    color: #bd9521;
-  }
-  to {
-    color: maroon;
-  }
-}
 @media only screen and (max-width: 1590px) {
   .requirements {
     margin-top: 150px;
@@ -387,4 +375,4 @@ a:active {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sytle.css.map */

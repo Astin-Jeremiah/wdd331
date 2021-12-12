@@ -197,6 +197,15 @@ h2{
 	display: block;
 }
 
+h1, h2 {
+	animation: heading 5s infinite alternate;
+}
+
+@keyframes heading {
+	from {color: $color-4;}
+  	to {color: $color-5;}
+}
+
 @media only screen and (max-width: $L) { 
        .requirements {
 		  margin-top: 150px;
